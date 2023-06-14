@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1. Menu Home \n2.Menu CRUD Catatan Harian \n3. Menu Info \n4. Menu Profile"
+        android:text="1. Menu Home \n2. Menu Lacak Lokasi Sekarang \n4. Menu Lihat Tempat Makan \n4. Menu Info \n5. Menu Profile"
         android:gravity="fill_horizontal"
         android:textSize="20sp"
         android:textColor="@android:color/black"
@@ -37,7 +37,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tata Cara CRUD Catatan Harian"
+        android:text="Tata Cara Gunakan Aplikasi"
         android:gravity="center"
         android:textSize="30sp"
         android:textColor="@android:color/black"
@@ -51,7 +51,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1. Klik Tambah Data Untuk Menambah \n    Data. Isi data yang disediakan. dan \n    untuk waktunya otomatis tanggal \n    data tersebut dibuat. \n2.Jika ingin ubah atau hapus data. Tekan\n    data yang ingin diubah atau dihapus \n    lalu pilih opsi yang diiinginkan"
+        android:text="Tinggal Gunakan"
         android:gravity="fill_horizontal"
         android:textSize="20sp"
         android:textColor="@android:color/black"

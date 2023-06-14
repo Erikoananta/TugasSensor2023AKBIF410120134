@@ -1,13 +1,14 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
-    namespace 'com.example.tugasuts10120134'
+    namespace 'com.example.tugassensor10120134'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.tugasuts10120134"
+        applicationId "com.example.tugassensor10120134"
         minSdk 28
         targetSdk 33
         versionCode 1
@@ -33,6 +34,7 @@ android {
 
 dependencies {
     
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
     constraints {
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0") {
             because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
@@ -42,6 +44,8 @@ dependencies {
         }
     }
 
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

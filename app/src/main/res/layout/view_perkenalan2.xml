@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="aplikasi ini dapat melakukan pendataan catatan harian, perubahan catatan harian, dan penghapusan catatan harian menggunakan sqlite\n"
+        android:text="aplikasi ini dapat Melihat 5 Tempat makan terdekat UNIKOM dan melacak lokasi anda sekarang\n"
         android:gravity="center"
         android:justificationMode="inter_word"
         android:textSize="30sp"
